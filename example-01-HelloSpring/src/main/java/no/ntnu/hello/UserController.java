@@ -25,6 +25,7 @@ public class UserController {
         List<User> users = new LinkedList<>();
         users.add(new User("Chuck", "Dorris"));
         users.add(new User("Ada", "Lovelace"));
+        users.add(new User("Jonas", "Alaska"));
         return users;
     }
 }
